@@ -4,7 +4,24 @@ body {
 }
 
 h2 {
+    font-size: larger;
+    margin-top: 40px;
+}
+
+h3 {
     font-size: medium;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+article{
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;  
+    font-family: he;  
+}
+
+section{
+    line-height: 1.5;
 }
 
