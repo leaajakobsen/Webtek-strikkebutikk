@@ -6,26 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knit Happens</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/Favicon2.png">
 </head>
 <body>
-    <header>
-        <h1>P2 Design</h1>
-        <p>6.10.2022</p>
-        <p>Johanne, Johannes, Malin, Ingeborg, Lea og Lise</p>
-    </header>
-    <section>
-        <h2>Administrative details</h2>
-        <p>Client: Guri Strikkesen, eier av strikkebutikken Knit Happens <br>
-            <h2>Knit Happens </h2>
-            <p>Guri eier strikkebutikken Knit Happens og er lidenskapelig opptatt av strikking. Hun er også opptatt av å spre “strikkeglede” til folket. Guri har drevet en fysisk butikk i Trondheim siden 2015. Nå ønsker hun en nettside for å være mer tilgjengelig for alle, spesielt yngre.</p>
-    </section>
-    <section>
-        <h2>Purpose and goals</h2>
-        <p>Sidens mening er å lage en side for butikken Knit Happens der folk kan se på hvilke garn de kan bruke, mønstre de kan strikke og bestille inn til butikken så de kan komme og kjøpe det de har funnet på nettsiden.</p>
-    </section>
+    <article class="content">
+        <header>
+            <h1>P2 Design</h1>
+            <p>6.10.2022</p>
+            <p>Johanne, Johannes, Malin, Ingeborg, Lea og Lise</p>
+        </header>
+        <section>
+            <h2>1. Administrative details</h2>
+            <p>Client: Guri Strikkesen, eier av strikkebutikken Knit Happens <br>
+                <h3>Knit Happens </h3>
+                <p>Guri eier strikkebutikken Knit Happens og er lidenskapelig opptatt av strikking. Hun er også opptatt av å spre “strikkeglede” til folket. Guri har drevet en fysisk butikk i Trondheim siden 2015. Nå ønsker hun en nettside for å være mer tilgjengelig for alle, spesielt yngre.</p>
+        </section>
+        <section>
+            <h2>2. Purpose and goals</h2>
+            <p>Sidens mening er å lage en side for butikken Knit Happens der folk kan se på hvilke garn de kan bruke, mønstre de kan strikke og bestille inn til butikken så de kan komme og kjøpe det de har funnet på nettsiden.</p>
+        </section>
 
-    <section>
-        <h2>Audience</h2>
-        <p>Brukere av nettsiden vil være alle med interesse for strikking og garn. Dette kan være folk i alle aldre og kjønn. Primært tenker vi kvinner i alder 18-60. </p>
-    </section>
+        <section>
+            <h2>3. Audience</h2>
+            <p>Brukere av nettsiden vil være alle med interesse for strikking og garn. Dette kan være folk i alle aldre og kjønn. Primært tenker vi kvinner i alder 18-60. </p>
+        </section>
+
+        <section>
+            <h2>4. Navigation Structure </h2>
+            <p>Hovedmåten å navigere seg rundt på nettsiden er i navigation-baren øverst på siden. Den linker til 4 andre sider på nettsiden: garn, oppskrifter, om oss og kontaktskjema. Videre kan man trykke på overskriften “knit happens” for å komme til hjem-siden. Bildene av de utvalgte produktene leder også til sidene for de produktene det er bilde av. Vi har valgt denne strukturen siden det gjør nettsiden ryddig og enkel å bruke.</p>
+        </section>
+
+        <section>
+            <h2>5. Page layout and appearances</h2>
+            <p>Vi har fokusert på et enkelt og rent design hvor hovedfokuset skal være strikking og produktene Knit Happens tilbyr. Målet er å vekke strikkegleden hos brukeren hvor det skal være lett å navigere seg fram til produktene en ønsker å bestille. I menyen øverst på siden vil man umiddelbart få god oversikt over nettsiden og det er intuitivt hva som vil komme opp når man klikker på de ulike alternativene. Guri Strikkesen ønsket om at de som besøker nettsiden enkelt skal kunne ta kontakt med butikken. Dette løste vi gjennom et kontaktskjema inne på siden, som vi har lagt under “Kontaktskjema” i menyen. Vi har troen på at klienten vår, Guri, blir fornøyd med denne løsningen på nettsiden.</p>
+            <img src="img/layout.png" alt="layout">
+            <p>Spesifikk styling vi vil ha på alle sidene: <br>
+                <ul>
+                    <li>Font: Helvetica</li>
+                    <li>Skriftstørrelse: 12</li>
+                </ul>
+            Fargevalg:
+                <ul>
+                    <li>Tekst: svart</li>
+                    <li>Bakgrunn: Lys rosa</li>
+                </ul>
+            
+            Bredde: 960px <br>
+            Linker: 
+                <ul>
+                    <li>Ved å trykke på hovedoverskriften(knit happens) vil man bli ført tilbake til hjemmesiden</li>
+                    <li>Hver av alternativene i hovedmenyen vil linke til sine respektive sider</li>
+                </ul>
+            Menyen: <br>
+                <ul>
+                    <li>Menylinjen vil ligge øverst uavhengig av hvilken side man er inne på. Det samme vil gjelde for bunnteksten.</li>
+                    <li>Det vil være en ramme rundt menyen, med hvit bakgrunn</li>
+                </ul>
+            Logo: 
+                <ul>
+                    <li>Logoen vil vises som et favicon</li>
+                </ul>
+                <img id="favicon" src="img/favicon.png" alt="Favicon">
+            
+        </section>
+
+        <section>
+            <h2>6. Content</h2>
+            
+            <h3>Hjemmeside - hjemmeside.html</h3>
+            <p>På hjem-siden til nettsiden vår har vi valgt å ha en introduksjon til butikken og utvalgte varer for at folk som vil bruke nettsiden ikke trenger å lure på hva nettsiden formidler, hva slags butikk nettsiden tilhører eller hva som er butikkens anbefalte varer. Likt som på de andre sidene er det også en navigation-bar og en footer med informasjon om hvordan å kontakte butikken. Vi har valgt å legge med en tekst om butikken, garn og nettsiden  som øverste innhold under navigation-baren med mål om å gi en introduksjon til butikken som er lett å finne. I tillegg har vi lagt med bilder av garn samt av butikken lenger nede på siden. Videre har vi tatt et valg om en behagelig og lys rosa bakgrunnsfarge for å gjøre det lett å lese og å se på nettsiden. </p>
+            <img src="img/hjemmeside.png" alt="hjemmeside">
+            
+            <h3>Oppskrifter - oppskrifter.html</h3>
+            <p>På denne siden vil det bli presentert 5 ulike strikkeoppskrifter. Det vil være et bilde av hver av typene genser det er oppskrift på. I teksten til hvert bilde vil det stå litt info: alle skal inneholde størrelser oppskriften kan strikkes i, veiledende pinner og hvilke materialer som trengs. Materialer vil være de ulike garntypene som finnes på nettsiden. Hver av strikkeoppskriftene vil ha hvert sitt type garn som materiale. Det vil ikke være mulig å trykke på bildene eller teksten for å få mer informasjon. Derimot vil bildene bli større om man trykker på dem. </p>
+            <img src="img/oppskrifter.png" alt="oppskrifter">
+            <img src="img/oppskrifter2.png" alt="oppskrifter2">
+
+            <h3>Garn - garn.html</h3>
+            <p>På denne siden blir de ulike garnene som Knit happens selger, presentert. Det vil være et bilde av hver av de ulike garnene. Disse bildene viser kun en av fargene. Så blir alle tre fargene beskrevet i teksten. I teksten til hvert bilde er det også en beskrivelse av innholdet i garnet, strikkefastheten samt løpelengden. Det vil ikke være mulig å klikke på bildene eller teksten for å få mer informasjon. Det er bare en fremvisning av produktene.</p>
+            <img src="img/garn.png" alt="garn">
+            <img src="img/garn2.png" alt="garn2">
+
+            <h3>Om oss - omoss.html</h3>
+            <p>På denne siden vil vi representere kunden vår. Her skriver vi litt generelt om butikken før vi går inn på Guri Strikkesen som eier. Følger samme type mal som de andre sidene. Med en frame øverst og nederst. Skal også være mulig å trykke på knit happens helt på toppen og komme tilbake til forsiden. Øverste teksten er skrevet i litt større skrift enn den nederste. Grunnen til dette er at den teksten er “viktigere” enn teksten under. Det er fordi den går mer inn på butikken generelt, i stedet for kun Guri. Bildet er av Guri. <br>
+            <br> Muligens skrive noe om Guri sine favoritter i tekstboksen om henne. </p>
+            <img src="img/omoss.png" alt="Om oss">
+
+            <h3>Kontaktskjema - kontaktskjema.html</h3>
+            <p>På denne siden kan du kontakte oss gjennom et kontaktskjema som blir sendt direkte til Guri Strikkesen sin e-postadresse. <br>
+            <br>I meldingsboksen kan du spørre om hva som helst. Blant annet kan du sende inn en bestilling på ulike garn som kan holdes av i butikken i Trondheim. Ellers kan du stille spørsmål om de ulike garnene, eller om det er noe annet du lurer på. Ved å trykke på “Send”-knappen sendes skjemaet på e-post til Guri Strikkesen. </p>
+            <img src="img/kontaktskjema.png" alt="kontaktskjema">
+
+        </section>
+
+        <section>
+            <h2>7. Minimum Requirements</h2>
+            <p>Vi vil oppfylle minstekravene ved å implementere ulike javascript applikasjoner som beskrevet under: </p>
+                <ol>
+                    <li>En javascript funksjon der brukeren kan trykke på et valgt bilde slik at blir det større. Vi kommer til å ha en del forskjellige produkter på nettsiden, der å forstørre disse forbedrer brukeropplevelsen ettersom man vil få en interaktiv nettside, i tillegg til at man får bedre inntrykk av produktene. For å minimere latens vil miniatyrbildene ha dimensjoner på (200px x 250px), og pop-up vinduet vil være (400px x 500px).</li>
+                    <li>Vi vil at kontaktskjemaet skal nullstille seg når brukeren trykker send. Ved å bruke javascript til dette vil vi oppnå at kontaktskjemaet resettes uten at hele nettsiden må reloade. Dette sparer tid og belasting på servere.</li>
+                    <li>Nettsiden skal være visuelt appellerende, og for å gi inntrykk av en dynamisk nettside vil vi at bildene skal rullere, for eksempel, hvert femte sekund. Dette kan gjøre at kundene får en økt interesse og nysgjerrighet for produktene da man får ulike inntrykk av produktene.</li>
+                    <li>Bytte ut de utvalgte produktene som vises på hjem-siden (feks randomisere så det er nye bilder der hver gang man refresher)</li>
+                    <li>Tittelen på nettsiden vil vibrere når man hovrer over den.</li>
+                </ol>
+        </section>
+
+        <section>
+            <h2>8. Plan</h2>
+            <b>Liste med filer og mapper:</b>
+            hjemmeside.html<br>
+            garn.html <br>
+            oppskrifter.html<br>
+            omoss.html<br>
+            kontaktskjema.html<br>
+            img/
+                <ul>
+                    <li>favicon.png</li>
+                    <li>garn.png</li>
+                    <li>garn2.png</li>
+                    <li>hjemmeside.png</li>
+                    <li>kontaktskjema.png</li>
+                    <li>layout.png</li>
+                    <li>omoss.png</li>
+                    <li>oppskrifter.png</li>
+                    <li>oppskrifter2.png</li> 
+                    <li>Skjema1.png</li> 
+                    <li>Skjema2.png</li>
+                </ul>  
+            Scripts/ <br>
+                <ul>
+                    <li>JS1.js</li>
+                    <li>JS2.js</li>
+                    <li>JS3.js</li>
+                    <li>JS4.js</li>
+                    <li>JS5.js</li>
+                </ul>
+            style.css <br>
+            <br>
+            
+            
+
+            <b>Fordeling av arbeid og frister:</b>
+            <p id="skjemaer">
+            <img src="img/Skjema1.png" alt="Skjema1">
+            <img src="img/Skjema2.png" alt="Skjema2">
+            </p>
+
+        </section>
+
+
+
+
+    </article>
 </body>
