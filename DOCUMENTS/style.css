@@ -10,7 +10,7 @@ h2 {
 
 h3 {
     font-size: medium;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 article{
@@ -36,6 +36,10 @@ img {
 
 li {
     margin-top: auto;
+}
+
+#skjemaer {
+    width: 80%;
 }
 
 
