@@ -64,5 +64,33 @@ h1 {
         color: white;
     }
 
+    /* styling til garn.html av Johanne*/
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.bilde{
+  width: 250px;
+  height:300px;
+  margin-left:100%;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+.tekst{
+  width: 50%;
+  margin-left:35%;
+  margin-top: 55px;
+  line-height: 2;
+}
+
+.tittel{
+  font-weight: bold;
+}
+/* stopp styling til garn.html av Johanne*/
+
 
 
