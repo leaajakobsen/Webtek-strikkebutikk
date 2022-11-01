@@ -93,4 +93,10 @@ h1 {
 /* stopp styling til garn.html av Johanne*/
 
 
-
+/* styling til omoss.html av Ingeborg*/
+.text{
+  width: 50%;
+  margin-left:15%;
+  margin-top: 55px;
+  line-height: 2;
+}
