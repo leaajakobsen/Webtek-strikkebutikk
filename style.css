@@ -1,5 +1,5 @@
 body{
-    background-color: lightpink;
+    background-color: #fadcdf;
     
 }
 h1 {
@@ -79,6 +79,10 @@ h1 {
   margin-top: 30%;
   margin-bottom: 30%;
 }
+.pic{
+  width: 700px;
+  height: 400px;
+}
 
 .tekst{
   width: 50%;
@@ -95,7 +99,7 @@ h1 {
 
 /* styling til omoss.html av Ingeborg*/
 .text{
-  width: 50%;
+  width: 70%;
   margin-left:15%;
   margin-top: 55px;
   line-height: 2;
