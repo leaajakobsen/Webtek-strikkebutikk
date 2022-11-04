@@ -1,5 +1,5 @@
 body{
-    background-color: lightpink;
+    background-color: #fadcdf;
     
 }
 h1 {
@@ -104,3 +104,23 @@ h1 {
   margin-top: 55px;
   line-height: 2;
 }
+
+/* styling til oppskrifter.html av Lise */
+.tekstO{
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tittelO{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.bildeO{
+  width: 250px;
+  height: 300px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+/*  stopp styling til oppskrifter.html av Lise */
