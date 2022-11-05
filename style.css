@@ -1,7 +1,8 @@
-body{
+html, body{
     background-color: #fadcdf;
-    
+    margin-bottom: 20%; 
 }
+
 h1 {
     text-align: center;
 }
@@ -105,9 +106,44 @@ h1 {
   line-height: 2;
 }
 
-fieldset{
-  max-width: 100%;
-  padding-top: 20px;
-  border-color: white;
-  background-color: white;
+/* Styling kontaktskjema.html av Malin */
+
+form {
+  margin-left: 15%;
+  margin-right: 30%;
 }
+
+h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+input[type=text] {
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+input[type=email] {
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  width: 100%;
+  
+}
+
+a {
+  color: #131212;
+  text-decoration: none;
+
+}
+
+
+
+
+

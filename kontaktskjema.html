@@ -9,10 +9,10 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
 </head>
 <body>
-    <h1 href="index.html">KNIT HAPPENS</h1>
+    <h1><a href="index.html" id="homeLink">KNIT HAPPENS </a></h1>
     <div class="topnav">
         <a href="garn.html">Garn</a>
-        <a href="#oppskrifter">Oppskrifter</a>
+        <a href="oppskrifter.html">Oppskrifter</a>
         <a href="omoss.html">Om oss</a>
         <a href="kontaktskjema.html">Kontaktskjema</a>
       </div>
@@ -24,11 +24,22 @@
     </div>
 
     <div class="main">
-        <form action="kontaktskjema.html">
-            <header> <h3>Kontakt oss</h3></header>
-            <fieldset>
-    
-            </fieldset>
+        <form action="kontaktskjema.html" id="kontaktskjema">
+            <header> <h3>Kontakt oss</h3></header> 
+            <label for="navn">Ditt navn:</label><br><br>
+            <input type="text" id="navn" name="navn" placeholder="Skriv inn her" pattern="^\w+( +\w+)*$" required>
+            <br><br><br>
+            <label for="epost">Din e-postadresse: </label><br>
+            <br>
+            <input type="email" id="epost" name="epost" placeholder="Skriv inn her" required>
+            <br><br><br>
+            <label for="melding">Melding: </label><br>
+            <br>
+            <textarea name="melding" id="melding" cols="30" rows="10" required></textarea>
+            <br><br>
+            <input type="submit" id="button" onClick="resetForm()" value="Send"><br><br>
+            <br><br>
+            <script src="js1.js"></script>
     
         </form>
     
