@@ -53,17 +53,12 @@ h1 {
         width: 22%;
     }
     
-    /* Change the color of links on hover */
+    /* Change the color of links on hover
     .bottomnav p:hover {
         background-color:hsl(196, 48%, 74%);
         color: black;
-    }
+    } */
     
-    /* Add a color to the active/current link */
-    .bottomnav p.active {
-        background-color: hsl(196, 48%, 74%);
-        color: white;
-    }
 
 /* styling til garn.html av Johanne*/
 

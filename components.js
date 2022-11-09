@@ -1,3 +1,14 @@
+//Funksjon for å lage header
+function makeh1() {
+    var header = document.createElement('h1');
+    var text = document.createTextNode("KNIT HAPPENS");
+    header.appendChild(text);
+    return header;
+  }
+document.getElementById('homeLink').appendChild(makeh1());
+
+
+// Navbar
 const navbar = document.getElementById("navbar")
 const links = [
     {
@@ -27,7 +38,8 @@ for (let i = 0; i<links.length; i++) {
     navbar.appendChild(a)
 }
 
-/*
+
+//Footer
 const footer = document.getElementById("footer")
 const text = [
     {label : "Adresse: Strikkegata 26, Trondheim",},
@@ -38,6 +50,8 @@ const text = [
 ]
 
 for (let i = 0; i<text.length; i++){
+    let p = document.createElement("p")
     let content = document.createTextNode(text[i].label)
-    footer.appendChild(content)
-}*/
+    p.appendChild(content)
+    footer.appendChild(p)
+}
