@@ -1,12 +1,15 @@
 //Funksjon for å lage header
-// function makeh1() {
-//     var header = document.createElement('h1');
-//     var text = document.createTextNode("KNIT HAPPENS");
-//     header.appendChild(text);
-//     return header;
-//   }
-// document.getElementById('homeLink').appendChild(makeh1());
+function makeh1() {
+    let a = document.createElement("a")
+    a.setAttribute("href","index.html")
 
+     var header = document.createElement('h1');
+     var text = document.createTextNode("KNIT HAPPENS");
+     header.appendChild(text);
+     a.appendChild(header)
+     return a;
+   }
+ document.getElementById('header').appendChild(makeh1());
 
 // Navbar
 const navbar = document.getElementById("navbar")
