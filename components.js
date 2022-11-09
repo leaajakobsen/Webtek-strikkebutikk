@@ -1,11 +1,11 @@
 //Funksjon for å lage header
-function makeh1() {
-    var header = document.createElement('h1');
-    var text = document.createTextNode("KNIT HAPPENS");
-    header.appendChild(text);
-    return header;
-  }
-document.getElementById('homeLink').appendChild(makeh1());
+// function makeh1() {
+//     var header = document.createElement('h1');
+//     var text = document.createTextNode("KNIT HAPPENS");
+//     header.appendChild(text);
+//     return header;
+//   }
+// document.getElementById('homeLink').appendChild(makeh1());
 
 
 // Navbar
