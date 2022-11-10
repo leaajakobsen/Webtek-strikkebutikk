@@ -3,6 +3,12 @@ html, body{
     margin-bottom: 20%; 
 }
 
+@media only screen and (max-width: 1080px){
+  .bilde{
+    display: none;
+  }
+}
+
 h1 {
     text-align: center;
 }
