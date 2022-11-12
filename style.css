@@ -3,13 +3,22 @@ html, body{
     margin-bottom: 20%; 
 }
 
+@media only screen and (max-width: 1080px){
+  .bilde{
+    display: none;
+  }
+}
+
 h1 {
     text-align: center;
 }
+
+
 /* Add a white background color to the top navigation */
 .topnav {
     background-color: rgb(228, 222, 222);
     overflow: hidden;
+
   }
   
   /* Style the links inside the navigation bar */
@@ -53,17 +62,12 @@ h1 {
         width: 22%;
     }
     
-    /* Change the color of links on hover */
+    /* Change the color of links on hover
     .bottomnav p:hover {
         background-color:hsl(196, 48%, 74%);
         color: black;
-    }
+    } */
     
-    /* Add a color to the active/current link */
-    .bottomnav p.active {
-        background-color: hsl(196, 48%, 74%);
-        color: white;
-    }
 
 /* styling til garn.html av Johanne*/
 
