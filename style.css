@@ -96,10 +96,24 @@ h1 {
 
 /* styling til omoss.html av Ingeborg*/
 .text{
-  width: 70%;
+  width: 60%;
   margin-left:15%;
   margin-top: 55px;
   line-height: 2;
+  
+}
+
+.text2{
+  width: 100%;
+  margin-top: 55px;
+  line-height: 2;
+}
+
+.pic{
+  width: 650px;
+  height:400px;
+  margin-top: 5%;
+  margin-left: 15%;
 }
 
 /* Styling kontaktskjema.html av Malin */
