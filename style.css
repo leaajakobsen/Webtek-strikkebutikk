@@ -1,6 +1,7 @@
 html, body{
     background-color: #fadcdf;
     margin-bottom: 20%; 
+    font-family: 'Times New Roman';
 }
 
 @media only screen and (max-width: 1080px){
