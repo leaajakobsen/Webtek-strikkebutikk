@@ -1,13 +1,13 @@
 //Funksjon for å lage header
 function makeh1() {
-    let b = document.createElement("a")
-    b.setAttribute("href","index.html")
+    let a = document.createElement("a")
+    a.setAttribute("href","index.html")
 
-     var header = document.createElement('h1');
-     var text = document.createTextNode("KNIT HAPPENS");
+     const header = document.createElement('h1');
+     const text = document.createTextNode("KNIT HAPPENS");
      header.appendChild(text);
-     b.appendChild(header)
-     return b;
+     a.appendChild(header)
+     return a;
    }
  document.getElementById('header').appendChild(makeh1());
 
