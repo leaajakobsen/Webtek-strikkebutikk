@@ -67,6 +67,9 @@ h1 {
   .topnav a{
     width: 15%;
   }
+  .bottomnav p{
+    width: 15%;
+  }
 }
 
 /* styling til garn.html av Johanne*/
