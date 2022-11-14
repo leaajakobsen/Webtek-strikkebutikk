@@ -102,6 +102,12 @@ h1 {
 
 
 /* styling til omoss.html av Ingeborg*/
+/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width. */
+@media only screen and (max-width: 1080px){
+  .pic{
+    display: none;
+  }
+}
 .text{
   width: 60%;
   margin-left:15%;
