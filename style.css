@@ -5,11 +5,7 @@ html, body{
 
 }
 
-@media only screen and (max-width: 1080px){
-  .bilde{
-    display: none;
-  }
-}
+
 
 
 h1 {
@@ -64,7 +60,17 @@ h1 {
     width: 22%;
 }
     
-    
+@media only screen and (max-width: 1080px){
+  .bilde{
+    display: none;
+  }
+  .topnav a{
+    width: 15%;
+  }
+  .bottomnav p{
+    width: 15%;
+  }
+}
 
 /* styling til garn.html av Johanne*/
 
@@ -96,6 +102,12 @@ h1 {
 
 
 /* styling til omoss.html av Ingeborg*/
+/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width. */
+@media only screen and (max-width: 1080px){
+  .pic{
+    display: none;
+  }
+}
 .text{
   width: 60%;
   margin-left:15%;
@@ -168,41 +180,6 @@ a {
   padding-left: 8%; 
   padding-top: 8%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
