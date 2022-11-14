@@ -163,11 +163,6 @@ a {
   padding-top: 8%;
 }
 
-
-
-
-
-
 /* Styling av slideshow av Johannes */
 .slideshow {
   position: relative;
@@ -209,7 +204,8 @@ a {
   height: 75%;
 }
 
-/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width. */
+/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width og bredden 
+mellom elementer i footer og header blir mindre. */
 @media only screen and (max-width: 1080px){
   .bilde{
     display: none;
@@ -220,7 +216,6 @@ a {
   .bottomnav p{
     width: 15%;
   }
-
   .pic{
     display: none;
   }
