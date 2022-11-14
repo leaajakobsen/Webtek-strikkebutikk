@@ -1,3 +1,6 @@
+//Lagde en funkjon for å lage header slik at vi ikke trengte å kopiere i hver fil, men da fungerte ikke changecolor.js for å endre
+//farge på headeren når man hovrer over. Så vi endte opp med å lage header i html i stedenfor. 
+
 //Funksjon for å lage header
 /*function makeh1() {
     let a = document.createElement("a")
