@@ -5,11 +5,7 @@ html, body{
 
 }
 
-@media only screen and (max-width: 1080px){
-  .bilde{
-    display: none;
-  }
-}
+
 
 
 h1 {
@@ -64,7 +60,14 @@ h1 {
     width: 22%;
 }
     
-    
+@media only screen and (max-width: 1080px){
+  .bilde{
+    display: none;
+  }
+  .topnav a{
+    width: 15%;
+  }
+}
 
 /* styling til garn.html av Johanne*/
 
