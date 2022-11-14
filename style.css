@@ -165,8 +165,10 @@ a {
   width: 40vw;
   height: 60vh;
   overflow: hidden;
+  left: 75px;
   margin-left: 17%;
   margin-right: 10%;
+  bottom: 50px;
 }
 
 .slideshow img {
