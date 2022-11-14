@@ -1,7 +1,7 @@
 //Funksjon for å lage header
-function makeh1() {
+/*function makeh1() {
     let a = document.createElement("a")
-    a.setAttribute("href","index.html")
+    a.setAttribute("href","hjemmeside.html")
 
      const header = document.createElement('h1');
      const text = document.createTextNode("KNIT HAPPENS");
@@ -9,7 +9,7 @@ function makeh1() {
      a.appendChild(header)
      return a;
    }
- document.getElementById('header').appendChild(makeh1());
+ document.getElementById('header').appendChild(makeh1());*/
 
 // Navbar
 const navbar = document.getElementById("navbar")
