@@ -6,8 +6,6 @@ html, body{
 }
 
 
-
-
 h1 {
     text-align: center;
 }
@@ -227,8 +225,18 @@ mellom elementer i footer og header blir mindre. */
   }
   .bottomnav p{
     width: 19%;
+
   }
 
+}
+@media only screen and (max-width: 599px) {
+  .bottomnav p{
+    font-size: 14px;
+    width: 17%;
+  }
+  .topnav a{
+    width: 17%;
+  }
 }
 
 .div{
