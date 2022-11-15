@@ -148,6 +148,7 @@ a {
 
 }
 
+/*
 .div{
   padding-left: 8%;
   padding-top: 8%;
@@ -162,26 +163,21 @@ a {
   padding-left: 8%; 
   padding-top: 8%;
 }
-
-
-
+*/
 
 
 
 /* Styling av slideshow av Johannes */
 .slideshow {
   position: relative;
-  width: 40vw;
-  height: 60vh;
+  width: 100vw;
+  height: 50vh;
   overflow: hidden;
-  left: 75px;
-  margin-left: 17%;
-  margin-right: 10%;
-  bottom: 50px;
 }
 
 .slideshow img {
-  margin-top: 1em;
+  
+  margin-left: 3em;
   border-radius: 15px;
 }
 
@@ -236,19 +232,36 @@ a {
 
 }
 
-.div{
-  padding-left: 8%;
-  padding-top: 8%;
-  padding-right: 8%;
-}
+/*CSS brukt på hjemmeside.html*/
+
 .div2{
   padding-left: 8%;
-  padding-top: 3%;
   padding-right: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .h{
   padding-left: 8%;
   padding-top: 8%;
 }
+
+.p {
+  line-height: 2;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding:8%;
+}
+
+.tekstOgBilde{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 
 
