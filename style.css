@@ -165,8 +165,6 @@ a {
 }
 */
 
-
-
 /* Styling av slideshow av Johannes */
 .slideshow {
   position: relative;
@@ -216,7 +214,6 @@ a {
   .bottomnav p{
     width: 15%;
   }
-
   .pic{
     display: none;
   }
