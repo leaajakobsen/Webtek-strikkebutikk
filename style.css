@@ -216,6 +216,12 @@ mellom elementer i footer og header blir mindre. */
   .pic{
     display: none;
   }
+  .slideshow{
+    display: none;
+  }
+  .gendiv{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1080px){
@@ -248,8 +254,8 @@ mellom elementer i footer og header blir mindre. */
   justify-content: space-between;
 }
 .h{
-  padding-left: 8%;
-  padding-top: 8%;
+  padding-left: 4%;
+  padding-top: 4%;
 }
 
 .p {
@@ -265,13 +271,15 @@ mellom elementer i footer og header blir mindre. */
 .tekstOgBilde{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.gendiv {
+.gendiv{
   position: relative; 
   bottom: 150px;
+  padding: 4%;
 }
+
 
 
 
