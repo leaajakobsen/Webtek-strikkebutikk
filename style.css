@@ -6,8 +6,6 @@ html, body{
 }
 
 
-
-
 h1 {
     text-align: center;
 }
@@ -203,7 +201,8 @@ a {
   height: 75%;
 }
 
-/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width. */
+/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width og bredden 
+mellom elementer i footer og header blir mindre. */
 @media only screen and (max-width: 1080px){
   .bilde{
     display: none;
@@ -225,8 +224,18 @@ a {
   }
   .bottomnav p{
     width: 19%;
+
   }
 
+}
+@media only screen and (max-width: 599px) {
+  .bottomnav p{
+    font-size: 14px;
+    width: 17%;
+  }
+  .topnav a{
+    width: 17%;
+  }
 }
 
 /*CSS brukt på hjemmeside.html*/
