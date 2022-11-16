@@ -163,12 +163,8 @@ a {
   padding-top: 8%;
 }
 
-
-
-
-
-
 /* Styling av slideshow av Johannes */
+
 .slideshow {
   position: relative;
   width: 40vw;
@@ -185,21 +181,12 @@ a {
   border-radius: 15px;
 }
 
-.slideshow > ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+#image1[active] {
+  position: absolute;
 }
-
 .slide {
   position: absolute;
-  opacity: 0;
-  inset: 0;
-  transition: 220ms opacity ease-in-out;
-}
-
-.slide[active] {
-  opacity: 1;
+  transition: 220ms ease-in-out;
 }
 
 .slide > img {
