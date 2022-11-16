@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html lang="nn">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knit Happens</title>
-    <link  rel= "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    
+
 </head>
+
 <body>
-    
+
     <h1><a href="hjemmeside.html" id="header">KNIT HAPPENS </a></h1>
 
     <nav class="topnav" id="navbar"></nav>
 
-    <div style="display: inline-block; padding:8%">
+
+    <div class="content">
         <h4>Velkommen til Knit Happens!</h4>
-        <div id="velkomTekstDivId" style="display: inline-block; width: 40%;">
-            <p style="position: relative; bottom: 300px; display: inline-block;">En hyggelig butikk full av garn i alle farger, levert fra leverandører i Røros og Trondheim.
-            Butikken ligger i Trondheim sentrum, i tillegg til at du kan kontakte oss her på nettsiden. 
-            Her finner du diverse oppskrifter og informasjon på våre garn. Vi jobber hardt for at våre 
-            kunder skal bli fornøyde! Bestill fra vår butikk ved å bruke kontaktskjemaet.
-            </p>
-        </div>
-        <div style="display: inline-block;">
+
+        <div class="tekstOgBilde">
+            <div id="velkomTekstDivId">
+                <p class="p">En hyggelig butikk full av garn i alle farger, levert fra leverandører i Røros og
+                    Trondheim.
+                    Butikken ligger i Trondheim sentrum, i tillegg til at du kan kontakte oss her på nettsiden.
+                    Her finner du diverse oppskrifter og informasjon på våre garn. Vi jobber hardt for at våre
+                    kunder skal bli fornøyde! Bestill fra vår butikk ved å bruke kontaktskjemaet.
+                </p>
+            </div>
+
             <div class="slideshow">
-                <div class="slide">
+                <div class="slide" active>
                     <img id="image1" src="img/slider1.jpg" alt="Trondheim">
                 </div>
             </div>
+
         </div>
     </div>
+
     <br>
 
-    <div style="position: relative; bottom: 150px;">
-    <h4 style="padding-left: 8%;">Utvalgte produkter</h4>
-    <br>
-    <div id="updivId" class="div2" style="text-align: center">
+    <div class="gendiv">
+        <h4 style="padding-left: 4%;">Utvalgte produkter</h4>
+        <div>
+            <div id="updivId" class="div2">
+            </div>
 
+            <div id="infodivId" class="div2" style="justify-content: space-evenly!important;">
+            </div>
+        </div>
     </div>
-    <div id="infodivId" style="text-align: center">
 
-    </div>
-    </div>
-
-    <div style="position: relative; bottom: 150px;">
-    <h4 class="h">Besøk vår butikk i Trondheim!</h4>
-    <div style="text-align:center; padding: 5%;">
-        <img src="img/besokbutikk.webp" alt="Bilde av vår butikk i Trondheim" height="400">
-    </div>
+    <div class="gendiv">
+        <h4 class="h">Besøk vår butikk i Trondheim!</h4>
+        <div style="text-align:center; padding: 5%;">
+            <img src="img/besokbutikk.webp" alt="Bilde av vår butikk i Trondheim" height="400">
+        </div>
     </div>
 
     <footer class="bottomnav" id="footer"></footer>
@@ -59,4 +67,5 @@
     <script src="changecolor.js"></script>
     <script src="slideshow.js"></script>
 </body>
+
 </html>

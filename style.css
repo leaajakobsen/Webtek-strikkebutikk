@@ -6,8 +6,6 @@ html, body{
 }
 
 
-
-
 h1 {
     text-align: center;
 }
@@ -148,6 +146,7 @@ a {
 
 }
 
+/*
 .div{
   padding-left: 8%;
   padding-top: 8%;
@@ -162,22 +161,18 @@ a {
   padding-left: 8%; 
   padding-top: 8%;
 }
-
 /* Styling av slideshow av Johannes */
 
 .slideshow {
   position: relative;
-  width: 40vw;
-  height: 60vh;
+  width: 100vw;
+  height: 50vh;
   overflow: hidden;
-  left: 75px;
-  margin-left: 17%;
-  margin-right: 10%;
-  bottom: 50px;
 }
 
 .slideshow img {
-  margin-top: 1em;
+  
+  margin-left: 3em;
   border-radius: 15px;
 }
 
@@ -196,7 +191,46 @@ a {
   height: 75%;
 }
 
-/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width. */
+/*CSS brukt på hjemmeside.html*/
+
+.div2{
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.h{
+  padding-left: 4%;
+  padding-top: 4%;
+}
+
+.p {
+  line-height: 2;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding:8%;
+}
+
+.tekstOgBilde{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gendiv{
+  position: relative; 
+  bottom: 150px;
+  padding: 4%;
+}
+
+
+
+/* Gjør sånn at bildet forsvinner når bredden på siden er mindre enn max-width og bredden 
+mellom elementer i footer og header blir mindre. */
 @media only screen and (max-width: 1080px){
   .bilde{
     display: none;
@@ -207,10 +241,16 @@ a {
   .bottomnav p{
     width: 15%;
   }
-
   .pic{
     display: none;
   }
+  .slideshow{
+    display: none;
+  }
+ .gendiv{
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1080px){
@@ -219,23 +259,13 @@ a {
   }
   .bottomnav p{
     width: 19%;
+
   }
 
 }
 
-.div{
-  padding-left: 8%;
-  padding-top: 8%;
-  padding-right: 8%;
-}
-.div2{
-  padding-left: 8%;
-  padding-top: 3%;
-  padding-right: 8%;
-}
-.h{
-  padding-left: 8%;
-  padding-top: 8%;
-}
+
+
+
 
 
