@@ -273,15 +273,7 @@ mellom elementer i footer og header blir mindre. */
   }
 
 }
-@media only screen and (max-width: 599px) {
-  .bottomnav p{
-    font-size: 14px;
-    width: 17%;
-  }
-  .topnav a{
-    width: 17%;
-  }
-}
+
 
 
 
