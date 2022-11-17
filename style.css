@@ -171,7 +171,6 @@ a {
 }
 
 .slideshow img {
-  
   margin-left: 3em;
   border-radius: 15px;
 }
@@ -187,8 +186,8 @@ a {
 .slide > img {
   display: block;
   object-fit: cover;
-  width: 85%;
-  height: 75%;
+  width: 80%;
+  height: 80%;
 }
 
 /*CSS brukt på hjemmeside.html*/
