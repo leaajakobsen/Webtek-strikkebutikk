@@ -1,4 +1,4 @@
-    // Funksjon for å forstørre bilde
+    // Funksjon for å forstørre bilde når man hovrer over
     function enlargeImg(img) {
         img.style.transform = "scale(1.5)";
         img.style.transition =

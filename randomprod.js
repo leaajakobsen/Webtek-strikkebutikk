@@ -1,4 +1,4 @@
-//Funksjon for å randomisere de utvalgte produktene
+//Funksjon for å randomisere de utvalgte produktene når man refresher siden
 
 let updivEl = document.getElementById("updivId")
 let infodivEl = document.getElementById("infodivId")

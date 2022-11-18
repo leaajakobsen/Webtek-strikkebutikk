@@ -1,4 +1,4 @@
-// Funksjon for slideshow
+// Funksjon for slideshow på hjemmesiden
 var imageArray = [
     'img/slider1.jpg',
     'img/slider2.jpg',
