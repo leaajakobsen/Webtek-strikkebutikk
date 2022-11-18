@@ -5,166 +5,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P3 changes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>P3 Design Changes</h1>
-        <p>18.11.2022</p>
-        <p>Johanne, Johannes, Malin, Ingeborg, Lea og Lise</p>
-    </header>
-    <section>
-        <h2>1. Administrative details</h2>
-        <p>Client: Guri Strikkesen, eier av strikkebutikken Knit Happens <br>
-        <h3>Knit Happens </h3>
-        <p>Guri eier strikkebutikken Knit Happens og er lidenskapelig opptatt av strikking. Hun er også opptatt av å
-            spre “strikkeglede” til folket. Guri har drevet en fysisk butikk i Trondheim siden 2015. Nå ønsker hun en
-            nettside for å være mer tilgjengelig for alle, spesielt yngre.</p>
-    </section>
-    <section>
-        <h2>2. Endringer</h2>
-        <p>Endringer i CSS</p>
-        <ul>
-            <li>Endret font fra Helvetica til Times New Roman.</li>
-            <li>Endret fra hvit bakgrunn på navbaren til grå. </li>
-            <li>Fontsize satt til defaultstørrelse (16px) og ikke 12</li>
-        </ul>
-        <p>
-        <h4>Modularity:</h4>
-        Opprinnelig lagde Ingeborg og Johanne navbar og footer i HTML. For å ikke måtte kopiere navbar og footer inn
-        i hver enkelt htmlfil, lagde vi en javascript (components.js) slik at vi bare trengte å linke til denne
-        filen i bunnen av hver html. Components inneholder en funksjon for å lage navbaren og footer. Vi lagde også
-        en funksjon i javascript som lagde headeren, slik at vi ikke trengte å kopiere denne heller. Dette medførte
-        at javascript funksjonen som endret farge når man hovrer over header, ikke fungerte. Vi valgte derfor å gå
-        tilbake til å ha header i HTML og ikke JS. Selv om vi har kopiert dette i hver HTML fil, ga dette mye
-        kortere kode. Funksjonen makeh1 finnes fortsatt i components.js, men vi har valgt å kommentere den ut.
-        </p>
-
-        <p>
-        <h4> Hjemmeside.html:</h4>
-        Byttet om bildet av butikken enn det som var i malen. I malen vi lagde for hjemmesiden var det også tenkt
-        bare et bilde der vi nå har et slideshow med flere bilder.
-        </p>
-
-        <p>
-        <h4>Randomisere de utvalgte produktene - randomprod.js:</h4>
-        La til en funksjon så man kan trykke på bildene og bli tatt til siden for produktet.
-        </p>
-
-        <p>
-        <h4>Javascript funksjon på tittel - changecolor.js:</h4>
-        Dette skulle egentlig være at tittelen skulle vibrere når man tok musa over, men dette endret vi slik at fargen
-        skulle endres i stedet. Dette gjorde vi fordi det er mer brukervennlig at tittelen ikke vibrerer på seg.
-        Samtidig er det en morsom effekt at den nå endrer farge når man tar musa over.
-        </p>
-
-        <p>
-        <h4>Javascript funksjon på kontaktskjema:</h4>
-        Fjernet javascript funksjon på kontaktskjema, da vi har brukt form, noe som vil gjøre det mulig å sende skjema
-        og nullstille siden uten å bruke en javascript funksjon.
-        </p>
-
-        <p>
-        <h4>Mediaqueries: </h4>
-        Vi har gjort nettsiden responsive med å bruke mediaquery, når bredden på skjermen er mindre enn 1080px, vil
-        bildene forsvinne og bredden mellom elementer i header og footer blir mindre.
-        </p>
-    </section>
-
-    <section>
-        <h4>Liste med filer og mapper:</h4>
-        hjemmeside.html<br>
-        garn.html <br>
-        oppskrifter.html<br>
-        omoss.html<br>
-        kontaktskjema.html<br>
-        img/
-        <ul>
-            <li>favicon.png</li>
-            <li>kos.jpg</li>
-            <li>line.jpg</li>
-            <li>alpakka.jpg</li>
-            <li>peer.jpg</li>
-            <li>sunday.jpg</li>
-            <li>Linegenser.jpg</li>
-            <li>marseille.jpg</li>
-            <li>peer.jpg</li>
-            <li>pipaluk.jpg</li>
-            <li>cecilieskog.jpg</li>
-            <li>guri.jpeg</li>
-            <li>iben.jpg</li>
-            <li>besøkbutikk.webp</li>
-            <li>slider1.jpg</li>
-            <li>slider2.jpg</li>
-            <li>slider3.jpg</li>
-        </ul>
-        Scripts/ <br>
-        <ul>
-            <li>changecolor.js</li>
-            <li>enlargeImg.js</li>
-            <li>randomprod.js</li>
-            <li>slideshow.js</li>
-            <li>components.js</li>
-        </ul>
-        style.css <br>
-        <br>
-    </section>
-
-    <section>
-        <h4>Minimun requirements</h4>
-        Lea:<br>
-        <ul>
-            <li>Lea lagde en javascript funksjon for å bytte ut de utvalgte produktene som vises på hjemmesiden ved å
-                randomize indexer som blir brukt til å hente ut bilder, de tilhørende navnene som vises under bildene og
-                linkene som hører til slik at man blir tatt til riktig side når man trykker på bildet.</li>
-            <li>Laget hjemmeside.hmtl </li>
-        </ul>
-
-        Malin:<br>
-        <ul>
-            <li>Malin opprettet kontaktskjema ved å bruke “form” i Kontaktskjema.html. I tillegg la hun til en link i
-                headeren “Knit Happens” for å komme tilbake til hjemmesiden. </li>
-        </ul>
-
-        Lise:<br>
-        <ul>
-            <li>Lise lagde javascript funksjonen changecolor.js ved å bruke addEventListener, og mouseover/mouseout og
-                changeColor()
-            </li>
-            <li>Lise lagde også oppskrifter.html</li>
-        </ul>
-
-        Johanne:<br>
-        <ul>
-            <li>Johanne lagde en javascript funksjon for at bildene skulle forstørres når man hovrer over. Lage en
-                funksjon enlarger bildet og så en som reseter når musen går ut av bildet. Bildestørrelsen skulle vært
-                200 x 250, men vi bruker 250x300. De forstørres til 1,5 * størrelsen, når man hovrer over, og ikke når
-                man trykker slik vi hadde tenkt. </li>
-            <li>Johanne lagde en javascript fil, components.js, som inneholder funksjoner for å lage navbar og footer.</li>
-            <li>Johanne lagde garn.html</li>
-        </ul>
-
-        Johannes:<br>
-        <ul>
-            <li>Johannes lagde javascript funksjonen slideshow.js og styling av slideshowet på style.css. Samt gjorde
-                stylingendringer på hjemmeside.html for å tilpasse slideshowet og den andre teksten på siden</li>
-        </ul>
-
-        Ingeborg:<br>
-        <ul>
-            <li>Ingeborg startet hjemmesiden i index.html sammen med Johanne. Her lagde vi navbar og footer. Disse ble
-            senere flyttet og index.html ble til hjemmeside.html. </li>
-            <li>Ingeborg lagde omoss.html</li>
-        </ul>
-    </section>
-    <section>
-    <h4>Fordeling av arbeid og frister:</h4>
-            <p class="skjemaer">
-            <img src="img/fordeling1.png" alt="fordeling1">
-            <img src="img/fordeling2.png" alt="fordeling2">
+    <article>
+        <header>
+            <h1>P3 Design Changes</h1>
+            <p>18.11.2022</p>
+            <p>Johanne, Johannes, Malin, Ingeborg, Lea og Lise</p>
+        </header>
+        <section>
+            <h2>1. Administrative details</h2>
+            <p>Client: Guri Strikkesen, eier av strikkebutikken Knit Happens <br>
+            <h3>Knit Happens </h3>
+            <p>Guri eier strikkebutikken Knit Happens og er lidenskapelig opptatt av strikking. Hun er også opptatt av å
+                spre “strikkeglede” til folket. Guri har drevet en fysisk butikk i Trondheim siden 2015. Nå ønsker hun
+                en
+                nettside for å være mer tilgjengelig for alle, spesielt yngre.</p>
+        </section>
+        <section>
+            <h2>2. Endringer</h2>
+            <p>Endringer i CSS</p>
+            <ul>
+                <li>Endret font fra Helvetica til Times New Roman.</li>
+                <li>Endret fra hvit bakgrunn på navbaren til grå. </li>
+                <li>Fontsize satt til defaultstørrelse (16px) og ikke 12</li>
+            </ul>
+            <p>
+            <h4>Modularity:</h4>
+            Opprinnelig lagde Ingeborg og Johanne navbar og footer i HTML. For å ikke måtte kopiere navbar og footer inn
+            i hver enkelt htmlfil, lagde vi en javascript (components.js) slik at vi bare trengte å linke til denne
+            filen i bunnen av hver html. Components inneholder en funksjon for å lage navbaren og footer. Vi lagde også
+            en funksjon i javascript som lagde headeren, slik at vi ikke trengte å kopiere denne heller. Dette medførte
+            at javascript funksjonen som endret farge når man hovrer over header, ikke fungerte. Vi valgte derfor å gå
+            tilbake til å ha header i HTML og ikke JS. Selv om vi har kopiert dette i hver HTML fil, ga dette mye
+            kortere kode. Funksjonen makeh1 finnes fortsatt i components.js, men vi har valgt å kommentere den ut.
             </p>
-    </section>
+
+            <p>
+            <h4> Hjemmeside.html:</h4>
+            Byttet om bildet av butikken enn det som var i malen. I malen vi lagde for hjemmesiden var det også tenkt
+            bare et bilde der vi nå har et slideshow med flere bilder.
+            </p>
+
+            <p>
+            <h4>Randomisere de utvalgte produktene - randomprod.js:</h4>
+            La til en funksjon så man kan trykke på bildene og bli tatt til siden for produktet.
+            </p>
+
+            <p>
+            <h4>Javascript funksjon på tittel - changecolor.js:</h4>
+            Dette skulle egentlig være at tittelen skulle vibrere når man tok musa over, men dette endret vi slik at
+            fargen
+            skulle endres i stedet. Dette gjorde vi fordi det er mer brukervennlig at tittelen ikke vibrerer på seg.
+            Samtidig er det en morsom effekt at den nå endrer farge når man tar musa over.
+            </p>
+
+            <p>
+            <h4>Javascript funksjon på kontaktskjema:</h4>
+            Fjernet javascript funksjon på kontaktskjema, da vi har brukt form, noe som vil gjøre det mulig å sende
+            skjema
+            og nullstille siden uten å bruke en javascript funksjon.
+            </p>
+
+            <p>
+            <h4>Mediaqueries: </h4>
+            Vi har gjort nettsiden responsive med å bruke mediaquery, når bredden på skjermen er mindre enn 1080px, vil
+            bildene forsvinne og bredden mellom elementer i header og footer blir mindre.
+            </p>
+        </section>
+
+        <section>
+            <h4>Liste med filer og mapper:</h4>
+            hjemmeside.html<br>
+            garn.html <br>
+            oppskrifter.html<br>
+            omoss.html<br>
+            kontaktskjema.html<br>
+            img/
+            <ul>
+                <li>favicon.png</li>
+                <li>kos.jpg</li>
+                <li>line.jpg</li>
+                <li>alpakka.jpg</li>
+                <li>peer.jpg</li>
+                <li>sunday.jpg</li>
+                <li>Linegenser.jpg</li>
+                <li>marseille.jpg</li>
+                <li>peer.jpg</li>
+                <li>pipaluk.jpg</li>
+                <li>cecilieskog.jpg</li>
+                <li>guri.jpeg</li>
+                <li>iben.jpg</li>
+                <li>besøkbutikk.webp</li>
+                <li>slider1.jpg</li>
+                <li>slider2.jpg</li>
+                <li>slider3.jpg</li>
+            </ul>
+            Scripts/ <br>
+            <ul>
+                <li>changecolor.js</li>
+                <li>enlargeImg.js</li>
+                <li>randomprod.js</li>
+                <li>slideshow.js</li>
+                <li>components.js</li>
+            </ul>
+            style.css <br>
+            <br>
+        </section>
+
+        <section>
+            <h4>Minimun requirements</h4>
+            Lea:<br>
+            <ul>
+                <li>Lea lagde en javascript funksjon for å bytte ut de utvalgte produktene som vises på hjemmesiden ved
+                    å
+                    randomize indexer som blir brukt til å hente ut bilder, de tilhørende navnene som vises under
+                    bildene og
+                    linkene som hører til slik at man blir tatt til riktig side når man trykker på bildet.</li>
+                <li>Laget hjemmeside.hmtl </li>
+            </ul>
+
+            Malin:<br>
+            <ul>
+                <li>Malin opprettet kontaktskjema ved å bruke “form” i Kontaktskjema.html. I tillegg la hun til en link
+                    i
+                    headeren “Knit Happens” for å komme tilbake til hjemmesiden. </li>
+            </ul>
+
+            Lise:<br>
+            <ul>
+                <li>Lise lagde javascript funksjonen changecolor.js ved å bruke addEventListener, og mouseover/mouseout
+                    og
+                    changeColor()
+                </li>
+                <li>Lise lagde også oppskrifter.html</li>
+            </ul>
+
+            Johanne:<br>
+            <ul>
+                <li>Johanne lagde en javascript funksjon for at bildene skulle forstørres når man hovrer over. Lage en
+                    funksjon enlarger bildet og så en som reseter når musen går ut av bildet. Bildestørrelsen skulle
+                    vært
+                    200 x 250, men vi bruker 250x300. De forstørres til 1,5 * størrelsen, når man hovrer over, og ikke
+                    når
+                    man trykker slik vi hadde tenkt. </li>
+                <li>Johanne lagde en javascript fil, components.js, som inneholder funksjoner for å lage navbar og
+                    footer.</li>
+                <li>Johanne lagde garn.html</li>
+            </ul>
+
+            Johannes:<br>
+            <ul>
+                <li>Johannes lagde javascript funksjonen slideshow.js og styling av slideshowet på style.css. Samt
+                    gjorde
+                    stylingendringer på hjemmeside.html for å tilpasse slideshowet og den andre teksten på siden</li>
+            </ul>
+
+            Ingeborg:<br>
+            <ul>
+                <li>Ingeborg startet hjemmesiden i index.html sammen med Johanne. Her lagde vi navbar og footer. Disse
+                    ble
+                    senere flyttet og index.html ble til hjemmeside.html. </li>
+                <li>Ingeborg lagde omoss.html</li>
+            </ul>
+        </section>
+        <section>
+            <h4>Fordeling av arbeid og frister:</h4>
+            <p id="fordeling">
+                <img src="img/fordeling1.png" alt="fordeling1">
+                <img src="img/fordeling2.png" alt="fordeling2">
+            </p>
+        </section>
+
+    </article>
 
 </body>
 
